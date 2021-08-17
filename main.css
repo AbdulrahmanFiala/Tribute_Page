@@ -1,0 +1,243 @@
+body{
+    margin: 0 auto;
+}
+
+#intro{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100% ;
+    background-image: url("https://i.imgur.com/vcm5rkY.jpgs")  ;
+    background-position: 100% 15%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header{
+    text-transform: capitalize;
+    grid-row: 1/2;
+    text-align: center;   
+}
+
+#title{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    margin-top: 0.6rem;
+}
+#nickname{
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+}
+
+@media only screen and (min-width: 780px){
+    #container{
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        }
+    
+    
+        #qoute{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        
+        }
+    
+        #qoute p{
+        font-size: 1.8rem;
+        padding: 1rem;
+        color: red;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        margin: 3rem;
+        }
+    #biograph{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.1fr 0.5fr 3fr 0.5fr;
+        height: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lavender;
+        padding: 1rem 0rem;
+    }
+    
+    #biograph h2{
+        grid-column: 1/4;
+        grid-row: 1/2;
+        font-size: 2.5rem;
+        margin: 2rem 4rem 1rem 2rem;
+        color:red;
+    
+    }
+    
+    #img-div{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        display: grid;   
+        grid-template-columns: 1fr; 
+        margin-top: 1.5rem;
+    }
+    
+    #image{
+        grid-column: 1/2;
+        width: 10%;
+        height: auto;
+        max-width: 400px;
+        justify-self: center;
+    }
+    
+    #img-caption{
+        grid-column: 1/2;
+        justify-self: center;
+        font-size:0.8rem;
+    
+    }
+    
+    #biograph p{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        margin: 0rem 4rem 0.5rem 2rem;
+        font-size: 1rem;
+    
+    }
+    
+    #biograph h3{
+        margin: 0rem 4rem 1rem 2rem;
+        color:hsl(0, 100%, 40%);
+    }
+    
+    #early_life{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin: 0.4rem 0rem;
+    }
+    
+    #early_surgical{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        margin: 0.4rem 0rem;
+    
+    }
+    
+    #later_career{
+        grid-column: 3/4;
+        grid-row: 3/4;
+        margin: 0.4rem 0rem;    
+    }
+    
+    .more_info {
+        grid-row: 4/5;
+        grid-column: 1/4;
+        margin-left: 2rem;
+    }
+
+}
+
+
+@media only screen and (max-width:780px){
+
+    #container{
+        grid-row: 2/3;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr 1fr;
+        }
+    
+    
+    #qoute{
+        margin-top: 12rem;
+        grid-column: 1/2;
+        grid-row: 2/3;
+        
+    }
+    
+    #qoute p{
+        font-size: 1.8rem;
+        padding: 1rem;
+        color: red;
+        border: 0.2rem solid #000000;
+        border-radius: 1rem;
+        margin: 3rem;
+    }
+    #biograph{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 0.1fr 0.5fr 1fr 1fr 1fr  0.1fr;
+        height: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: lavender;
+        
+    }
+    
+    #biograph h2{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: 2.5rem;
+        margin: 2rem 4rem 1rem 2rem;
+        color:red;
+    
+    }
+    
+    #img-div{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: grid;   
+        grid-template-columns: 1fr; 
+        margin-top: 1.5rem;
+    }
+    
+    #image{
+        grid-column: 1/2;
+        width: 10%;
+        height: auto;
+        max-width: 400px;
+        justify-self: right;
+    }
+    
+    #img-caption{
+        grid-column: 1/2;
+        font-size:0.8rem;
+        justify-self: right;
+        margin-right: 0.8rem;
+    }
+    
+    #biograph p{
+        grid-column: 1/4;
+        grid-row: 2/3;
+        margin: 0rem 4rem 0.5rem 2rem;
+        font-size: 1rem;
+    
+    }
+    
+    #biograph h3{
+        margin: 0rem 4rem 1rem 1.8rem;
+        color:hsl(0, 100%, 40%);
+    }
+    
+    #early_life{
+        grid-row: 3/4;
+        margin: 0.4rem 0rem;
+    }
+    
+    #early_surgical{
+        grid-row: 4/5;
+        margin: 0.4rem 0rem;
+    
+    }
+    
+    #later_career{
+        grid-row: 5/6;
+        margin: 0.4rem 0rem;
+    
+    }
+    
+    .more_info {
+        grid-row: 6/7;
+        grid-column: 1/4;
+        margin-left: 2rem;
+    }
+} 
