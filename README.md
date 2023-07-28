@@ -1,6 +1,6 @@
 # Tribute Page - Sir Yacoub
 
-![Sir Yacoub](https://raw.githubusercontent.com/abdulrahmanfiala/sir-magdi-yacoub-tribute-page/main/images/screenshot-of-the-tribute-page.jpg)
+![Sir Yacoub](https://raw.githubusercontent.com/abdulrahmanfiala/sir-magdi-yacoub-tribute-page/main/images/screenshot-of-the-tribute-page.png)
 
 ## Introduction
 
