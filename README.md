@@ -40,7 +40,7 @@ Welcome to this heartfelt tribute page dedicated to Sir Yacoub, a prominent and 
 
 ## License
 
-This project is licensed under the [MIT License]. You are free to use, modify, and distribute this project in accordance with the terms of the license.
+This project is licensed under the MIT License. You are free to use, modify, and distribute this project in accordance with the terms of the license.
 
 ---
 
