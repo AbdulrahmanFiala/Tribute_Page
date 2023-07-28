@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is a simple tribute page dedicated to Sir Yacoub, a prominent figure in history who made significant contributions in various fields. The page is designed using HTML and styled with CSS to provide an aesthetically pleasing and informative user experience.
+Welcome to this heartfelt tribute page dedicated to Sir Yacoub, a prominent and revered figure in the medical world. Born on 16th November 1935, Sir Magdi Habib Yacoub, an Egyptian retired professor of cardiothoracic surgery at Imperial College London, has left an indelible mark on the field of medicine through his groundbreaking contributions. Renowned for his pioneering work in cardiothoracic surgery, Sir Yacoub's name is synonymous with innovation and excellence. Join us as we celebrate his remarkable journey and unwavering dedication to the betterment of humanity.
 
 ## Table of Contents
 
