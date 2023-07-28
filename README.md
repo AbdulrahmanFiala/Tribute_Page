@@ -1,24 +1,47 @@
-This is one of the projects required by FreeCodeCamp in order to earn a certificate in Responsive Web Design. The full description of the requirements of the project is as follows:
+# Tribute Page - Sir Yacoub
 
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
+![Sir Yacoub](https://raw.githubusercontent.com/abdulrahmanfiala/sir-magdi-yacoub-tribute-page/main/images/screenshot-of-the-tribute-page.jpg)
 
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+## Introduction
 
-User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+This is a simple tribute page dedicated to Sir Yacoub, a prominent figure in history who made significant contributions in various fields. The page is designed using HTML and styled with CSS to provide an aesthetically pleasing and informative user experience.
 
-User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+## Table of Contents
 
-User Story #3: I should see a div element with a corresponding id="img-div".
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Use](#how-to-use)
+- [Acknowledgments](#acknowledgments)
+- [License](#license)
 
-User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+## Features
 
-User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+- **Informative Content:** The tribute page provides a brief overview of Sir Yacoub's life, accomplishments, and impact on society.
 
-User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+- **Responsive Design:** The page is responsive and adapts to different screen sizes, making it accessible on various devices.
 
-User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+- **Stylish Layout:** CSS styles are applied to create an engaging visual layout, enhancing the user experience.
 
-User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+## Technologies Used
 
-User Story #9: The img element should be centered within its parent element.
+- HTML
+- CSS
 
+## How to Use
+
+1. **Accessing the Tribute Page:**
+
+   - You can access the tribute page by opening the `index.html` file in your web browser.
+
+2. **Exploring the Content:**
+   - The page consists of different sections, each highlighting essential aspects of Sir Yacoub's life.
+   - Scroll through the page to read about his contributions and achievements.
+
+## License
+
+This project is licensed under the [MIT License]. You are free to use, modify, and distribute this project in accordance with the terms of the license.
+
+---
+
+Thank you for visiting the tribute page dedicated to Sir Yacoub. We hope you find this page informative and inspiring. Feel free to explore, and we welcome any feedback or suggestions to enhance the page further.
